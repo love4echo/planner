@@ -4,8 +4,9 @@ const Today = (props) => {
   const DATE = props.date;
 
   return (
-    <div>
+    <div id="today-page-bg">
       <h1 className="pg-title">Today -  {DATE}</h1>
+      <br />
       <div id="today-page">
         <UserList title="Assignments" className="left-div" />
         <UserList title="Events" className="left-div" />
