@@ -104,6 +104,15 @@
 }
 
 
+.card-bg {
+  position: fixed;
+  background-color: #BC4B51;
+  width: 90%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+
 #help-bg {
   /* position: absolute; */
   padding: 2rem;

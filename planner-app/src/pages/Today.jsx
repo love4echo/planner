@@ -1,3 +1,4 @@
+import PopUpCard from "../components/PopUpCard";
 import UserList from "../components/UserList";
 
 const Today = (props) => {

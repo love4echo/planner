@@ -2,6 +2,7 @@ import UserList from "../components/UserList";
 
 const List = (props) => {
   const DATE = props.date;
+  
 
   return (
     <div id="today-page-bg">
