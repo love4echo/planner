@@ -13,12 +13,11 @@ function App() {
 
   return (
     <div>
-      <p>Todo: color code & add classes, the labels, check, sort, due date, edit, help</p>
       <Routes>
         <Route path="/" element={<Today date={DATE} />} />
         <Route path="/home" element={<Today date={DATE} />} />
         <Route path="/help" element={<Help />} />
-        <Route path="/list" element={<List date={DATE} />} />
+        <Route path="/list" element={<List date={currentDateTime.toLocaleDateString()} />} />
       </Routes>
       <Navbar />
     </div>

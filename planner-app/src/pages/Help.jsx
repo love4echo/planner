@@ -10,6 +10,8 @@ const Help = () => {
       <br />
       <h2>By Class</h2>
       <p>The 'By Class' tab shows you your assignments sorted by class.</p>
+      <p>Add your classes (press add class button on the bottom right).</p>
+      <p>Add your assignments for each class with the "+" button.</p>
     </div>
   );
 };
